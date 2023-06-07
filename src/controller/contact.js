@@ -9,7 +9,7 @@ module.exports = {
         const message = req.body.message;
 
         let mailOptions = {
-            from: `SOFTC <${process.env.MAILER_USER}>`,
+            from: `Rajeev <${process.env.MAILER_USER}>`,
             to: email,
             subject: "Happy to see you.",
             html: `<html>
@@ -54,7 +54,7 @@ module.exports = {
                         <div class="container">
                           <h1>Thank you for reaching out to me.</h1>
                           <p>I appreciate your interest in my services and products. I have received your message and will get back to you as soon as possible. </p>
-                          <p>If you need immediate assistance, please call me at +94768021017.</p>
+                          <p>If you need immediate assistance, please call me at +94768021017 / +94713080226.</p>
                           <a href="https://softc.vercel.app/" target="_blank" class="btn text-white" style="font-size: 16px">Visit our website</a>
                         </div>
                       </body>
